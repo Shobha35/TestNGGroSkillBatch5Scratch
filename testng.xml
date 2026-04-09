@@ -13,6 +13,7 @@
 	  <classes>
 	  	  <class  name="TestClasses.LoginTest"> </class>
 	  	   <class  name="TestClasses.CreateNewAppointmentTest"> </class> 
+	  	    <class name="TestClasses.BookedAppointmentTest"></class>
 	  	    <class  name="TestClasses.LogoutTest"> </class>
 		  
 	  </classes>

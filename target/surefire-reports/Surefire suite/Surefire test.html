@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 09 15:44:26 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>99 seconds (99827 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestClasses.BookedAppointmentTest.verifyAppointmentHistory()'><b>verifyAppointmentHistory</b><br>Test class: TestClasses.BookedAppointmentTest<br/>
+<a href="#Output-1255445356" onClick='toggleBox("Output-1255445356", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1255445356" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1255445356">
+Opening Browser for Test Execution <br/>
+Login Test Case Successfull<br/>
+Appointment booked for date: 25/05/2026<br/>
+Appointment booked for date: 30/05/2026<br/>
+Total appointments found in history: 2<br/>
+Comments verified successfully in History Page<br/>
+Test Case Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>TestClasses.BookedAppointmentTest@13c9d689</td></tr>
+<tr>
+<td title='TestClasses.LogoutTest.logOut()'><b>logOut</b><br>Test class: TestClasses.LogoutTest<br/>
+<a href="#Output-2061226112" onClick='toggleBox("Output-2061226112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061226112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061226112">
+Opening Browser for Test Execution <br/>
+Login Test Case Successfull<br/>
+Test Case Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>TestClasses.LogoutTest@28701274</td></tr>
+<tr>
+<td title='TestClasses.LoginTest.executeLogin()'><b>executeLogin</b><br>Test class: TestClasses.LoginTest<br/>
+<a href="#Output-2015999862" onClick='toggleBox("Output-2015999862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2015999862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2015999862">
+Opening Browser for Test Execution <br/>
+Login Test Case Successfull<br/>
+Test Case Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>TestClasses.LoginTest@7c7b252e</td></tr>
+<tr>
+<td title='TestClasses.CreateNewAppointmentTest.createNewAppointment()'><b>createNewAppointment</b><br>Test class: TestClasses.CreateNewAppointmentTest<br>Parameters: 22/04/2026, Need to visit a Dentist for cavities ,its urgent<br/>
+<a href="#Output-1627010197" onClick='toggleBox("Output-1627010197", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1627010197" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1627010197">
+Opening Browser for Test Execution <br/>
+Login Test Case Successfull<br/>
+Test Case Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestClasses.CreateNewAppointmentTest@36fc695d</td></tr>
+<tr>
+<td title='TestClasses.CreateNewAppointmentTest.createNewAppointment()'><b>createNewAppointment</b><br>Test class: TestClasses.CreateNewAppointmentTest<br>Parameters: 28/04/2026, Need to visit a physician<br/>
+<a href="#Output-95322593" onClick='toggleBox("Output-95322593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95322593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95322593">
+Opening Browser for Test Execution <br/>
+Login Test Case Successfull<br/>
+Test Case Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestClasses.CreateNewAppointmentTest@36fc695d</td></tr>
+</table><p>
+</body>
+</html>

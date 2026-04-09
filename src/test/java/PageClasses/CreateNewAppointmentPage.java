@@ -34,6 +34,9 @@ public class CreateNewAppointmentPage {
 	{
 		return By.xpath("//p[contains(text(), 'Please')]");
 	}
-	
+	public static By btnGoToHomepage() 
+	{
+	    return By.linkText("Go to Homepage");
+	}
 
 }

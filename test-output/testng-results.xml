@@ -23,19 +23,19 @@
       <![CDATA[Test Case Successfull]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-04-09T15:43:02 IST" name="Default suite" finished-at="2026-04-09T15:43:40 IST" duration-ms="38877">
+  <suite started-at="2026-04-09T21:11:54 IST" name="Default suite" finished-at="2026-04-09T21:12:30 IST" duration-ms="36163">
     <groups>
       <group name="sanity">
         <method signature="BookedAppointmentTest.verifyAppointmentHistory()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" name="verifyAppointmentHistory" class="TestClasses.BookedAppointmentTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2026-04-09T15:43:02 IST" name="Default test" finished-at="2026-04-09T15:43:40 IST" duration-ms="38877">
+    <test started-at="2026-04-09T21:11:54 IST" name="Default test" finished-at="2026-04-09T21:12:30 IST" duration-ms="36163">
       <class name="TestClasses.BookedAppointmentTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T15:43:02 IST" name="launchBrowser" finished-at="2026-04-09T15:43:15 IST" duration-ms="13008" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T21:11:54 IST" name="launchBrowser" finished-at="2026-04-09T21:12:02 IST" duration-ms="8202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyAppointmentHistory()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T15:43:15 IST" name="verifyAppointmentHistory" finished-at="2026-04-09T15:43:30 IST" duration-ms="15283" status="PASS">
+        <test-method signature="verifyAppointmentHistory()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T21:12:02 IST" name="verifyAppointmentHistory" finished-at="2026-04-09T21:12:20 IST" duration-ms="17579" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening Browser for Test Execution ]]>
@@ -60,7 +60,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAppointmentHistory -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T15:43:30 IST" name="closeBrowser" finished-at="2026-04-09T15:43:40 IST" duration-ms="10327" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClasses.BookedAppointmentTest@2dc54ad4]" started-at="2026-04-09T21:12:20 IST" name="closeBrowser" finished-at="2026-04-09T21:12:30 IST" duration-ms="10284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
